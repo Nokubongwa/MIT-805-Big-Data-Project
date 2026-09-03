@@ -33,7 +33,7 @@ The ChestX-ray14 dataset contains:
 
 - 112,120 frontal chest X-ray images
 - 30,805 unique patients
-- 15 thoracic disease labels
+- 14 thoracic disease labels
 - Multi-label disease annotations derived from radiology reports using Natural Language Processing (NLP)
 
 The disease categories include:
