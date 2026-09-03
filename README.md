@@ -88,7 +88,7 @@ Data/working dataset/images/
 The image dataset is not included in this repository because of its large size and redistribution restrictions. Users should download the dataset directly from the NIH source.
 
 ## Repository Structure
-
+```text
 project/
 │
 ├── README.md
@@ -119,3 +119,4 @@ project/
 │
 └── report/
     └── MIT805_Part1_Report.pdf
+```
