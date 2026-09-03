@@ -4,7 +4,7 @@ Large-Scale Data Analysis and Distributed Processing with PySpark
 
 ### Group Members
 - Buhle Ndlela (u22848322)
-- TA Molebiemang (u28174862)
+- Tshepo Molebiemang (u28174862)
 
 ---
 
@@ -77,7 +77,7 @@ The disease categories include:
 1. Visit the NIH ChestX-ray14 dataset page.
 2. Download the image archives.
 3. Download the metadata file:
-- Data_Entry_2017.csv
+- Data_Entry_2017_v2020.csv
 - Store it in folder name: Data/raw dataset
 4. Extract all image archives into a single folder named:
 Data/working dataset/images/
@@ -96,19 +96,22 @@ project/
 │
 ├── data/
 │   ├── raw_dataset/
-│   │   └── Data_Entry_2017.csv
+│   │   └── Data_Entry_2017_v2020.csv
 │   │
 │   ├── working_dataset/
-│   │   ├── images/
+│   │   └── images/
 │   │
 │   ├── processing_dataset/
+│   │   └── df_subset.csv
 │   │
-│   └── README.md
+│   ├── README.md
+|   ├── README_CHESTXRAY.pdf
+│
 ├── output/
 │ └── df_subset.csv
 │
 ├── notebooks/
-│   └── part1_eda.ipynb
+│   └── MIT 805 Project.ipynb.ipynb
 │
 ├── figures/
 │   ├── sample_images.png
